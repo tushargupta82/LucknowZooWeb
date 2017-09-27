@@ -82,7 +82,7 @@ class StaticController < ApplicationController
     def veretinary_care
     end 
 
-    def animal_detail
+    def animal_detial
 
     end 
 

@@ -21,7 +21,7 @@ Rails.application.routes.draw do
   get '/certificate' => 'static#certificate'
   get '/terms_and_conditions' => 'static#terms_condition'
   get '/veretinary_care' => 'static#veretinary_care'
-  get '/animal_detail' => 'static#animal_detail'
+  get '/animal_detial' => 'static#animal_detial'
 
 
 
