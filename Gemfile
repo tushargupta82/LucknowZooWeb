@@ -61,4 +61,7 @@ gem 'devise'
 
 gem 'kaminari'
 
+gem 'aws-sdk', '~> 3'
+
+
 

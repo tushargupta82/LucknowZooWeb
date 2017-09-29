@@ -1,5 +1,10 @@
 
 
+s3 = Aws::S3::Client.new(
+  region: region_name,
+  credentials: credentials,
+)
+
 
 
 #creating objects from video model
