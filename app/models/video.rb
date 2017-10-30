@@ -17,7 +17,7 @@ class Video
   field :url    ,           :type => String 
   field :tumbnail  ,        :type => String
   field :usage  ,           :type => String
-  filed :title ,            :type => String
+  field :title ,            :type => String
   field :description ,      :type => String 
 
 
