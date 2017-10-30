@@ -4,7 +4,7 @@ class VirtualRealityController < ApplicationController
 def get_list_vr_videos
 
 		# vr videos for  lucknow zoo
-		@vr_videos = Video.where(:type_of_video =>  "vr_video").page(params[:page])
+		@vr_videos = Video.where(:type_of_video =>  "vr_video"  , :usage => params[:usage] ).page(params[:page])
 		respond_to do |format|
 
 	                format.json{
@@ -15,6 +15,8 @@ def get_list_vr_videos
 
 
 end 
+
+
 
 
 
