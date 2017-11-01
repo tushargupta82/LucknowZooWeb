@@ -18,6 +18,22 @@ end
 
 
 
+def get_normal_videos
+
+
+	@videos = Video.where(:type_of_video =>  params[:type_of_video]  ,:usage => params[:usage]).page(params[:page])
+    respond_to do |format|
+
+	                format.json{
+	                   render :json =>{ :success => true ,
+	                          :info => "2d videos",
+	                          :video => @videos.as_json()} }
+	    end 
+
+
+end 
+
+
 
 
 
