@@ -33,6 +33,7 @@ Rails.application.routes.draw do
 # mobile api's 
 
 get'/vr_videos' => 'virtual_reality#get_list_vr_videos'
+get'/normal_videos' => 'virtual_reality#get_normal_videos'
 
 
   root 'static#index'
